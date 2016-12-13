@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<elements>
+	<line name="line1test1" x1="3" y1="1" x2="-1" y2="-3"></line>
+	<expected name="expected1test1" value="-4"></expected>
+	<expected name="expected2test1" value="4"></expected>
+	<expected name="expected3test1" value="8"></expected>
+
+	<line name="line1test2" x1="1" y1="1" x2="-1" y2="1"></line>
+	<line name="line2test2" x1="1" y1="-1" x2="-1" y2="-1"></line>
+	<expected name="expected1test2" value="0.0"></expected>
+
+	<line name="line1test3" x1="0" y1="3" x2="0" y2="-3"></line>
+	<line name="line2test3" x1="1" y1="1" x2="-1" y2="-1"></line>
+	<expected name="expected1test3" value="45.0"></expected>
+
+	<line name="line1test4" x1="3" y1="0" x2="-3" y2="0"></line>
+	<line name="line2test4" x1="1" y1="1" x2="1" y2="-1"></line>
+	<expected name="expected1test4" value="90.0"></expected>
+
+	<line name="line1test5" x1="0" y1="3" x2="0" y2="-3"></line>
+	<line name="line2test5" x1="1" y1="1" x2="-1" y2="1"></line>
+	<expected name="expected1test5" value="90.0"></expected>
+
+	<line name="line1test6" x1="0" y1="3" x2="0" y2="-3"></line>
+	<line name="line2test6" x1="1" y1="1" x2="-1" y2="-1"></line>
+	<expected name="expected1test6" value="90.0"></expected>
+
+	<line name="line1test7" x1="3" y1="0" x2="-3" y2="0"></line>
+	<line name="line2test7" x1="1" y1="1" x2="-1" y2="-1"></line>
+	<expected name="expected1test7" value="90.0"></expected>
+
+	<line name="line1test8" x1="1" y1="1" x2="-1" y2="1"></line>
+	<line name="line2test8" x1="1" y1="-1" x2="-1" y2="-1"></line>
+	<expected name="expected1test8" value="2.0"></expected>
+
+	<line name="line1test9" x1="1" y1="1" x2="-1" y2="3"></line>
+	<line name="line2test9" x1="1" y1="-1" x2="-1" y2="-1"></line>
+	<expected name="expected1test9" value="3.0"></expected>
+</elements>
